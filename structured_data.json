@@ -1,62 +1,107 @@
 [
   {
-    "description": "Object-oriented programming (OOP) is a programming paradigm that is based on the concept of \"objects\", which are instances of classes. Objects contain data, in the form of attributes, and code, in the form of methods. OOP aims to improve code organization and reusability by grouping related data and functions together. This approach makes programs easier to maintain, extend, and debug, especially as they grow larger and more complex. ",
     "start_time": "2.48",
-    "topic": "What is Object-Oriented Programming?"
+    "parent_node": "",
+    "description": "Introduction to object-oriented programming",
+    "id": "1",
+    "topic": "Object-oriented programming"
+  },
+  {
+    "start_time": "16.24",
+    "parent_node": "1",
+    "description": "Importance of prior programming knowledge",
+    "id": "2",
+    "topic": "Programming prerequisites"
+  },
+  {
+    "start_time": "21.439",
+    "parent_node": "2",
+    "description": "Suggestion to refer to the Introduction to Programming video for beginners",
+    "id": "3",
+    "topic": "Introductory resources"
   },
   {
     "start_time": "84.96",
-    "description": "Primitive data types are the most basic data types in programming, representing single values like numbers, characters, and booleans. Examples include int, float, char, and boolean. They serve as the building blocks for more complex data structures but are limited in their ability to represent real-world entities effectively.  ",
-    "topic": "Primitive Data Types"
+    "parent_node": "1",
+    "description": "Explanation of primitive data types and their limitations",
+    "id": "4",
+    "topic": "Primitive data types"
   },
   {
     "start_time": "216.48",
-    "description": "Structures, or structs, provide a way to group together different data types under a single name. Unlike arrays, which store elements of the same type, structures can contain a mix of data types, including other structures. This ability makes them suitable for representing more complex data entities in programming. ",
-    "topic": "Structures (Structs)"
+    "parent_node": "1",
+    "description": "Introduction of structs as a way to group variables",
+    "topic": "Structs",
+    "id": "5"
   },
   {
-    "description": "A class is a blueprint or template for creating objects, which are instances of that class. It defines the attributes (data) and methods (functions) that objects of that class will have. Think of a class as a general concept, while an object is a specific realization of that concept. ",
-    "start_time": "327.36",
-    "topic": "Classes and Objects"
+    "description": "Explanation of objects and classes as templates",
+    "parent_node": "1",
+    "start_time": "322.08",
+    "id": "6",
+    "topic": "Objects and classes"
   },
   {
-    "description": "Encapsulation in OOP involves bundling data and the methods that operate on that data within a class, hiding the internal implementation details from the outside world. This principle promotes data protection and code maintainability by controlling access to an object\\'s internal state.  ",
+    "description": "Definition and benefits of encapsulation in OOP",
+    "parent_node": "1",
     "start_time": "465.52",
-    "topic": "Encapsulation: Bundling Data and Methods"
+    "topic": "Encapsulation",
+    "id": "7"
   },
   {
-    "description": "Getters and Setters are methods used to access (get) and modify (set) the values of private attributes within a class. They provide controlled access to an object\\'s data, allowing for validation and ensuring data integrity.  ",
-    "start_time": "500.319",
-    "topic": "Getters and Setters: Controlled Data Access"
+    "start_time": "512.24",
+    "parent_node": "7",
+    "description": "Practical examples of encapsulation in game development",
+    "topic": "Encapsulation examples",
+    "id": "8"
   },
   {
-    "start_time": "776.32",
-    "description": "Abstraction in OOP involves simplifying complex systems by modeling them in a way that focuses on essential details and hides unnecessary complexity from the user. It enhances code readability, maintainability, and reusability by providing a clear separation between what an object does and how it does it.  ",
-    "topic": "Abstraction: Simplifying Complexity"
+    "description": "Explanation of abstraction in OOP and real-life applications",
+    "parent_node": "1",
+    "start_time": "773.76",
+    "id": "9",
+    "topic": "Abstraction"
   },
   {
-    "description": "Inheritance enables creating new classes (subclasses) that inherit attributes and methods from existing classes (superclasses), promoting code reuse and reducing redundancy. Subclasses can extend the functionality of superclasses, creating a hierarchy of related classes.  ",
+    "start_time": "875.04",
+    "parent_node": "9",
+    "description": "Benefits of abstraction in collaborative programming",
+    "topic": "Abstraction in teamwork",
+    "id": "10"
+  },
+  {
+    "description": "Definition and concept of inheritance in OOP",
+    "parent_node": "1",
     "start_time": "1071.28",
-    "topic": "Inheritance: Extending Classes"
+    "topic": "Inheritance",
+    "id": "11"
   },
   {
+    "description": "Explanation of access modifiers: public, private, and protected",
+    "parent_node": "11",
     "start_time": "1231.76",
-    "description": "Access modifiers (public, private, protected) control the accessibility of classes, attributes, and methods, determining which parts of the code can access and modify them. They enforce encapsulation and data hiding principles in OOP. ",
-    "topic": "Access Modifiers: Controlling Accessibility"
+    "id": "12",
+    "topic": "Access modifiers"
   },
   {
-    "description": "Polymorphism in OOP allows objects of different classes to be treated as objects of a common superclass. It enables writing code that can work with objects of various types without needing to know their specific class, promoting flexibility and code reusability. ",
+    "description": "Definition and types of polymorphism in OOP",
+    "parent_node": "1",
     "start_time": "1375.039",
-    "topic": "Polymorphism: Methods in Many Forms"
+    "topic": "Polymorphism",
+    "id": "13"
   },
   {
     "start_time": "1385.12",
-    "description": "Dynamic polymorphism, or method overriding, occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The actual method called is determined at runtime based on the object\\'s type.  ",
-    "topic": "Dynamic Polymorphism (Method Overriding)"
+    "parent_node": "13",
+    "description": "Explanation of dynamic polymorphism with a car example",
+    "topic": "Dynamic polymorphism",
+    "id": "14"
   },
   {
-    "description": "Static polymorphism, or method overloading, allows defining multiple methods with the same name within the same class, as long as they have different parameter lists (number or types of arguments). The compiler determines which method to call based on the arguments used in the method call. ",
+    "description": "Explanation of static polymorphism and method overloading",
+    "parent_node": "13",
     "start_time": "1564.96",
-    "topic": "Static Polymorphism (Method Overloading)"
+    "topic": "Static polymorphism",
+    "id": "15"
   }
 ]
